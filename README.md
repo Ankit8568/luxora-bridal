@@ -36,3 +36,4 @@ Install the required dependencies:
 
 ```bash
 npm install
+Built with ❤️ using Next.js
