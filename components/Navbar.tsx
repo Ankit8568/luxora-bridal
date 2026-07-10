@@ -253,19 +253,19 @@ export default function Navbar() {
 
           {/* DESKTOP BOOK BUTTON */}
           <a
-            href="#contact"
-            onClick={() =>
-              setActiveSection("contact")
-            }
-            className="group hidden items-center gap-3 rounded-full bg-[#211b18] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-[#d9b5a5] hover:text-[#211b18] lg:flex"
-          >
-            Book Now
+  href="#contact"
+  onClick={() => setActiveSection("contact")}
+  className="group hidden items-center gap-3 rounded-full bg-[#211b18] px-6 py-3 text-sm font-medium !text-white transition-all duration-300 hover:bg-[#d9b5a5] hover:!text-[#211b18] lg:flex"
+>
+  <span className="text-current">
+    Book Now
+  </span>
 
-            <ArrowUpRight
-              size={17}
-              className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
-            />
-          </a>
+  <ArrowUpRight
+    size={17}
+    className="text-current transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+  />
+</a>
 
           {/* MOBILE MENU BUTTON */}
           <button
