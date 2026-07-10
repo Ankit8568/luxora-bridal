@@ -7,11 +7,11 @@ export default function Academy() {
   return (
     <section
       id="academy"
-      className="relative scroll-mt-20 overflow-hidden bg-[#eee4db] py-16 sm:py-20 md:py-24"
+      className="relative scroll-mt-20 overflow-hidden bg-[#eee4db] py-16 text-[#211b18] sm:py-20 md:py-24"
     >
       <div className="container-custom">
         {/* SECTION LABEL */}
-        <p className="mb-4 text-xs uppercase tracking-[0.25em] text-[var(--accent)] sm:text-sm sm:tracking-[0.3em]">
+        <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-[#b98270] sm:text-sm sm:tracking-[0.3em]">
           Learn the Art
         </p>
 
@@ -27,13 +27,13 @@ export default function Academy() {
           }}
           viewport={{
             once: true,
-            amount: 0.2,
+            amount: 0.15,
           }}
           transition={{
             duration: 0.9,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="font-display max-w-4xl text-[clamp(2.6rem,12vw,4rem)] leading-[1.05] tracking-[-0.03em] sm:text-5xl md:text-6xl lg:text-7xl"
+          className="max-w-4xl font-display text-[clamp(2.6rem,12vw,4rem)] leading-[1.05] tracking-[-0.03em] text-[#211b18] sm:text-5xl md:text-6xl lg:text-7xl"
         >
           Master the art of makeup with expert guidance.
         </motion.h2>
@@ -50,14 +50,14 @@ export default function Academy() {
           }}
           viewport={{
             once: true,
-            amount: 0.2,
+            amount: 0.15,
           }}
           transition={{
             duration: 0.8,
             delay: 0.1,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="mt-6 max-w-2xl text-base leading-7 text-[var(--muted)] sm:mt-8 sm:text-lg sm:leading-8"
+          className="mt-6 max-w-2xl text-base leading-7 text-[#5f5651] sm:mt-8 sm:text-lg sm:leading-8"
         >
           Learn professional makeup techniques through personalized training,
           practical experience, and expert guidance designed for aspiring makeup
@@ -91,7 +91,7 @@ export default function Academy() {
               Professional Course
             </p>
 
-            <h3 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">
+            <h3 className="mt-4 font-display text-3xl leading-tight text-white sm:text-4xl">
               Bridal Makeup Masterclass
             </h3>
 
@@ -134,17 +134,17 @@ export default function Academy() {
               delay: 0.12,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="group flex scroll-mt-28 flex-col rounded-[1.5rem] border border-black/10 bg-[#f8f4ef] p-6 sm:scroll-mt-32 sm:rounded-[2rem] sm:p-8 lg:p-10"
+            className="group flex scroll-mt-28 flex-col rounded-[1.5rem] border border-black/10 bg-[#f8f4ef] p-6 text-[#211b18] sm:scroll-mt-32 sm:rounded-[2rem] sm:p-8 lg:p-10"
           >
-            <p className="text-[10px] uppercase tracking-[0.2em] text-[var(--accent)] sm:text-xs sm:tracking-[0.25em]">
+            <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-[#b98270] sm:text-xs sm:tracking-[0.25em]">
               Advanced Course
             </p>
 
-            <h3 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">
+            <h3 className="mt-4 font-display text-3xl leading-tight text-[#211b18] sm:text-4xl">
               Professional Makeup Artistry
             </h3>
 
-            <p className="mt-4 max-w-xl text-sm leading-7 text-[var(--muted)] sm:text-base">
+            <p className="mt-4 max-w-xl text-sm leading-7 text-[#5f5651] sm:text-base">
               Develop advanced makeup skills for bridal, party, editorial, and
               professional beauty looks with practical hands-on training.
             </p>

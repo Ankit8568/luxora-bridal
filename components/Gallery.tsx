@@ -6,11 +6,11 @@ export default function Gallery() {
   return (
     <section
       id="gallery"
-      className="relative scroll-mt-20 overflow-hidden bg-[#f8f4ef] py-16 sm:py-20 md:py-24"
+      className="relative scroll-mt-20 overflow-hidden bg-[#f8f4ef] py-16 text-[#211b18] sm:py-20 md:py-24"
     >
       <div className="container-custom">
         {/* SECTION LABEL */}
-        <p className="mb-4 text-xs uppercase tracking-[0.25em] text-[var(--accent)] sm:text-sm sm:tracking-[0.3em]">
+        <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-[#b98270] sm:text-sm sm:tracking-[0.3em]">
           Gallery
         </p>
 
@@ -26,13 +26,13 @@ export default function Gallery() {
           }}
           viewport={{
             once: true,
-            amount: 0.2,
+            amount: 0.15,
           }}
           transition={{
             duration: 0.9,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="font-display max-w-4xl text-[clamp(2.6rem,12vw,4rem)] leading-[1.05] tracking-[-0.03em] sm:text-5xl md:text-6xl lg:text-7xl"
+          className="max-w-4xl font-display text-[clamp(2.6rem,12vw,4rem)] leading-[1.05] tracking-[-0.03em] text-[#211b18] sm:text-5xl md:text-6xl lg:text-7xl"
         >
           A glimpse into our world of beauty and artistry.
         </motion.h2>
@@ -73,7 +73,7 @@ export default function Gallery() {
                   Bridal Collection
                 </p>
 
-                <h3 className="mt-2 font-display text-3xl">
+                <h3 className="mt-2 font-display text-3xl text-white">
                   Soft Glam
                 </h3>
               </div>
@@ -115,7 +115,7 @@ export default function Gallery() {
                   Beauty Details
                 </p>
 
-                <h3 className="mt-2 font-display text-3xl">
+                <h3 className="mt-2 font-display text-3xl text-white">
                   Flawless Finish
                 </h3>
               </div>
@@ -157,7 +157,7 @@ export default function Gallery() {
                   Signature Bridal
                 </p>
 
-                <h3 className="mt-2 font-display text-3xl">
+                <h3 className="mt-2 font-display text-3xl text-white">
                   Royal Elegance
                 </h3>
               </div>
