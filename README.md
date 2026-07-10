@@ -4,8 +4,7 @@ Luxora Bridal is a modern and responsive bridal makeup website designed to showc
 
 ## 🌐 Live Website
 
-Live Demo: Add your Vercel website link here
-
+Live Demo: https://luxora-bridal-x18l.vercel.app
 ## ✨ Features
 
 - Modern and elegant bridal design
