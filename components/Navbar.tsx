@@ -158,7 +158,7 @@ export default function Navbar() {
             href="#home"
             onClick={() => closeMobileMenu("home")}
             aria-label="Luxora home"
-            className="relative z-[60] font-display text-[1.8rem] font-semibold tracking-[-0.03em] sm:text-3xl md:text-4xl"
+            className="relative z-[60] font-display text-[1.8rem] font-semibold tracking-[-0.03em] text-[#211b18] transition-colors duration-300 sm:text-3xl md:text-4xl"
           >
             Luxora
             <span className="text-[var(--accent)]">
